@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "events",
+  "info": {
+    "name": "Events"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "date_of_event": {
+      "type": "date"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}
